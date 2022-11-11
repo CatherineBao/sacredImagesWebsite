@@ -24,6 +24,7 @@
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.4.1",
     "react-router-hash-link": "^2.4.3",
+    "react-scripts": "^5.0.1",
     "vercel": "^28.4.17",
     "vite": "^2.9.5",
     "webpack": "^5.74.0"
