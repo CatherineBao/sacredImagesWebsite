@@ -12,7 +12,7 @@ function Icon() {
   const nodes = 'hover:hue-rotate-90 duration-200 hover:cursor-pointer fill-accent'
   return (
 		// <img style={{zIndex: "-10"}}src={muralImage} alt='Image for the interactive mural at Timpanogos.'className=''/>
-    <div className='bg-mural bg-contain'>
+    <div className='bg-mural bg-no-repeat bg-cover bg-center bg-contain'>
     <svg xmlns="http://www.w3.org/2000/svg"
 			xmlnsXlink="http://www.w3.org/1999/xlink"
 			version="1.1"

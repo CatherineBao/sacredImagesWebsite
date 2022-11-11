@@ -13,7 +13,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'mural': "url('src/img/mural-min.jpg')",
+        'mural': "url('https://i.imgur.com/Xd8nVgF.jpg')",
       },
       fontFamily: {
         'main': ['Roboto', 'sans-serif'],
