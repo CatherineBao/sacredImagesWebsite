@@ -17,8 +17,8 @@ function SubmitStories() {
         	<span className='font-bold'>- Anonymous</span>
         </p>
       </div>
-  		<div className='relative pb-[56.25%] pt-25 md:h-[70em] h-[75em]'>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSci8yA_vEJn2kqHHL_tkM4heikNtfJinF1SqAROYAhPFZIkZw/viewform?embedded=true" 
+  		<div className='md:-mb-96 pt-25'>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScIFL9NOY6bZ1INa_ya4MNCkIMQ_pca6n13zZvEKdNSY4ZcHA/viewform?embedded=true" 
           frameborder="0" 
           marginheight="0"
           marginwidth="0"
