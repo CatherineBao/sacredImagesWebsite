@@ -24,8 +24,8 @@ function Footer() {
         </div>
         <div className='flex-col flex items-center justify-center'>
           <h1 className={h1}> IN PARTNERSHIP WITH:</h1>
-          <div className='flex gap-8'>
-            <div className='w-1/2'>
+          <div className='flex'>
+            <div className='w-1/2 p-5'>
               <ul className={li}>
             <li>LESLIE KELEN - <a className={link} href='https://cdeautah.org/' target="_blank" >THE CENTER FOR DOCUMENTARY ART & EXPRESSION</a></li>
             <li>JIMMY SANTIAGO BACA - <a className={link} href='https://www.jimmysantiagobaca.com/' target="_blank" >WRITER IN RESIDENCE</a></li>
@@ -33,19 +33,19 @@ function Footer() {
             <li>STUDENT EDUCATIONAL EQUITY DEPARTMENT  - <a className={link} href='https://www.youtube.com/channel/UCe3KJK1yMiiGQPK52l6Gj_w' target="_blank" >ALPINE SCHOOL DISTRICT </a></li>
           </ul>
             </div>
-             <div className='md:flex gap-8'>
+             <div className='flex flex-col md:flex-row items-center md:items-start p-5'>
               <ul className={li}>
-                <li>ANNA DAVIS</li>
-                <li>AP STUDIO ART</li>
-                <li>MARCUS DRAPER</li>
-                <li>LATINOS IN ACTION</li>
-                <li>CLAIRE WHITE</li>
-                <li>THS Design Team</li>
+                <li>ANNA DAVIS:</li>
+                <li className='text-mainText text-sm uppercase leading-7 -mt-2'>AP STUDIO ART</li>
+                <li>MARCUS DRAPER:</li>
+                <li className='text-mainText text-sm uppercase leading-7 -mt-2'>LATINOS IN ACTION</li>
+                <li>CLAIRE WHITE:</li>
+                <li className='text-mainText text-sm uppercase leading-7 -mt-2'>THS Design Team</li>
               </ul>
-               <ul className='text-text text-sm uppercase leading-7'>
+               <ul className='text-text text-sm uppercase leading-7 md:p-5'>
                 <li className='mt-4'>Website Devolopment: </li>
-                 <li> Amanda V. Della Cioppa </li> 
-                <li> Catherine Bao</li>
+                 <li> <a className={link} href='https://www.linkedin.com/in/amanda-della-cioppa-69571a223' target="_blank" >Amanda V. Della Cioppa </a> </li> 
+                <li> <a className={link} href='https://www.instagram.com/cayxiarts/' target="_blank" > Catherine Bao</a> </li>
                </ul>
             </div>
             <div>

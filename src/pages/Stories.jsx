@@ -27,7 +27,7 @@ function Stories() {
 					<p className='text-xs text-mainText hidden lg:block text-right italic uppercase max-w-3xl'>
 						"The mural represents Timpanogos' core values with artistic flourish." 
 						<br/>
-						<span className='font-bold'>- Anna Liu</span>
+						<span className='font-bold'>- Anna T. Liu</span>
 					</p>
 				</div>
 				<div className='justify-around p-16 items-center min-w-full'>

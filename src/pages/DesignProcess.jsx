@@ -23,6 +23,7 @@ import fynn from '../img/design-process/abbie-brockbank-fynn-portrait.jpg'
 function DesignProcess() {
   const img = 'rounded-2xl'
   const p = 'text-mainText mt-2 font-thin uppercase'
+  const title = 'text-text text-xl uppercase'
   return (
     <motion.div
       initial={{ opacity:0 }}
@@ -41,7 +42,7 @@ function DesignProcess() {
         <div className='w-full'> <img className='w-full' src={muralGif} alt="AP Spanish students image"/> </div>
        <div className='bg-bars text-text flex justify-end items-center lg:px-20 p-3 uppercase h-10 sm:h-auto'>
   	      <p className='hidden sm:block text-xs text-right text-mainText italic uppercase max-w-3xl'>
-  	      	"This project has been such a creative way to combine both technology and art into one. This experience has allowed us as students of all backgrounds to use each and every one of our skills to create something memorable and worthwhile."
+  	      	"This project has been such a creative way to combine both technology and art into one. This experience has allowed students of all backgrounds to use every one of our skills to create something memorable and worthwhile."
   	        <br/>
   	      	<span className='font-bold'>- Amanda V. Della Cioppa</span>
   	      </p>
@@ -69,7 +70,7 @@ function DesignProcess() {
           </div>
           <div className='md:w-1/2'>
             <div className='w-full'> <img className={img} src={muralIdea} alt="Anna Penrod's Mural Idea"/> </div>
-            <p className={p}>Anna Penrod <br/> Mural Concept Design</p>
+            <p className={p}><span className={title}> Mural Concept Design </span> <br/>  Anna Penrod</p>
             <h1 className='text-xl lg:text-3xl font-thin uppercase p-3 pt-10'>Mountains Concept Art</h1>
             <div>
               <div className='w-full'> <img className='w-full rounded-t-2xl' src={wolvesOne} alt="Mountains Concept Art"/> </div>
@@ -81,9 +82,9 @@ function DesignProcess() {
       <div className=' bg-bars text-text flex justify-between items-center lg:px-20 px-10 px-10 p-3 uppercase'>
         <h1 className='text-xl lg:text-3xl font-arvo font-thin'>Initial Sketches</h1>
         <p className='text-xs text-mainText hidden lg:block text-right italic uppercase mt-2'>
-          "quote" 
+          "If the stories on the website, or the mural itself, allow even one person to feel more content about their identity, <br/> as it did for me, the hundreds of hours were well spent." 
           <br/>
-        	<span className='font-bold'>- PERSON HERE</span>
+        	<span className='font-bold'>- anonymous</span>
         </p>
       </div>
       <div>
@@ -91,21 +92,21 @@ function DesignProcess() {
           <div className='flex md:w-1/2 gap-10 items-end'>
             <div>
               <div> <img className={img} src={segoLily} alt="segoLily"/> </div>
-              <p className={p}>johanna behm <br/> sego lily</p>
+              <p className={p}><span className={title}> sego lily</span> <br/> johanna behm  </p>
             </div>
             <div>
               <div> <img className={img} src={catalina} alt="catalina"/> </div>
-              <p className={p}>kayla bjorn <br/> catalina portrait</p>
+              <p className={p}> <span className={title}> catalina portrait </span><br/> kayla bjorn</p>
             </div>
           </div>
           <div className='flex md:w-1/2 gap-10 items-end'>
             <div>
               <div> <img className={img} src={wolves} alt="wolves"/> </div>
-              <p className={p}>Lily Begay <br/> Wolves </p>
+              <p className={p}> <span className={title}> Wolves </span><br/> Lily Begay</p>
             </div>
             <div>
               <div> <img className={img} src={nephi} alt="nephi"/> </div>
-              <p className={p}>nephi <br/> Claw Design</p>
+              <p className={p}> <span className={title}> Claw Design </span><br/> nephi</p>
             </div>
           </div>
         </div>
@@ -115,21 +116,21 @@ function DesignProcess() {
           <div className='flex md:w-1/2 gap-10 items-end'>
             <div className='w-1/2'>
               <div> <img className={img} src={talan} alt="talan gardne"/> </div>
-              <p className={p}>anna davis <br/>talan gardner</p>
+              <p className={p}><span className={title}>talan gardner</span>  <br/>anna davis</p>
             </div>
             <div className='w-1/2'>
               <div> <img className={img} src={designs} alt="designs"/> </div>
-              <p className={p}>ava folkman<br/>designs</p>
+              <p className={p}> <span className={title}> designs </span><br/> ava folkman</p>
             </div>
           </div>
           <div className='flex md:w-1/2 gap-10 items-end'>
             <div className='w-1/2'>
               <div> <img className={img} src={bgwolf} alt="wolves"/> </div>
-              <p className={p}>Brinley Gardner <br/> Wolf </p>
+              <p className={p}><span className={title}> Wolf </span> <br/> Brinley Gardner </p>
             </div>
             <div className='w-1/2'>
               <div> <img className={img} src={drew} alt="Drew Clark"/> </div>
-              <p className={p}>Brinley Gardner <br/> Drew Clark</p>
+              <p className={p}> <span className={title}> Drew Clark </span><br/> Brinley Gardner</p>
             </div>
           </div>
         </div>
@@ -139,21 +140,21 @@ function DesignProcess() {
           <div className='flex md:w-1/2 gap-10 items-end'>
             <div className='w-1/2'>
               <div> <img className={img} src={nephiww} alt="nephi-matagi"/> </div>
-              <p className={p}>anna davis <br/>nephi matagi</p>
+              <p className={p}><span className={title}> anna davis</span> <br/>nephi matagi</p>
             </div>
             <div className='w-1/2'>
               <div> <img className={img} src={sun} alt="designs"/> </div>
-              <p className={p}>alexa ledezma<br/>sun designs</p>
+              <p className={p}><span className={title}> alexa ledezma</span><br/>sun designs </p>
             </div>
           </div>
           <div className='flex md:w-1/2 gap-10 items-end'>
             <div className='w-1/2'>
               <div> <img className={img} src={butterflies} alt="butterflies"/> </div>
-              <p className={p}>alia anderson <br/> butterfly designs </p>
+              <p className={p}> <span className={title}> alia anderson</span><br/> butterfly designs </p>
             </div>
             <div className='w-1/2'>
               <div> <img className={img} src={fynn} alt="fynn-portrait"/> </div>
-              <p className={p}>Abby Brockbank <br/> fynn portrait</p>
+              <p className={p}> <span className={title}> fynn portrait</span> <br/>  Abby Brockbank</p>
             </div>
           </div>
         </div>
