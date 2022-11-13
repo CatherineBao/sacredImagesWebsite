@@ -27,6 +27,15 @@ function SubmitStories() {
           >Loading…
         </iframe>
   		</div>
+       <h1 className='text-xl lg:text-3xl font-arvo font-thin ml-20'>View Responses: </h1>
+       <div className='flex items-center justify-center mb-32'>
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLjTQ4xRPXXLP-dd8yZ345BgfisoUz6ywjmiDel3x6M8E9zwI34CECqRtaAlyARpYQaZEsZalXOBdS/pubhtml?gid=118426868&amp;single=true&amp;widget=true&amp;headers=false"
+          frameborder="0" 
+          marginheight="0"
+          marginwidth="0"
+          className='w-2/3 h-[25em] mt-10'
+          ></iframe>
+       </div>
     </div>
     </motion.div>
   );
