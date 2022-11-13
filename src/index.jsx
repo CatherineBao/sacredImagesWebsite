@@ -25,6 +25,7 @@ import APArt from './pages/story-sections/APArt'
 import English from './pages/story-sections/English'
 import Humanities from './pages/story-sections/Humanities'
 import LGBTQ from './pages/story-sections/LGBTQ+'
+import Sociology from './pages/story-sections/Sociology'
 
 const container = document.getElementById("root");
 
@@ -50,6 +51,7 @@ root.render(
 						<Route path='/stories/ap-art' element={<APArt />} />
 						<Route path='/stories/english' element={<English />} />
 						<Route path='/stories/humanities' element={<Humanities />} />
+            <Route path='/stories/sociology' element={<Sociology />} />
 						<Route path='/stories/lgbtq' element={<LGBTQ />} />
           </Routes>
         </div>

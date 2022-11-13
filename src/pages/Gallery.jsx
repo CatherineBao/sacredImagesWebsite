@@ -1,6 +1,11 @@
 import React from "react";
-import {Link} from 'react-router-dom'
-import { motion, AnimatePresence } from "framer-motion"
+import { motion } from "framer-motion"
+
+import SlideShow from '../components/SlideShow.jsx'
+
+import classroomsOne from '../img/gallery/in-classrooms/CDEA-THS_3970.jpg'
+import classroomsTwo from '../img/gallery/in-classrooms/CDEA-THS_4004.jpg'
+import classroomsThree from '../img/gallery/in-classrooms/CDEA-THS_4035.jpg'
 
 function Gallery() {
   return (
@@ -19,8 +24,13 @@ function Gallery() {
         </p>
       </div>
   		<div>
-  			<h2>(Coming Soon...)</h2>
+  			<h2 className='text-xl lg:text-3xl font-arvo font-thin p-3 uppercase lg:px-20 px-10 pt-10 mt-10 md:mb-5'>Jimmy and Dimmy in Classrooms</h2>
   		</div>
+       <div className='flex items-center justify-center'>
+         <div className='md:w-2/3 p-10'>
+            <SlideShow/>
+         </div>
+       </div>
     </div>
     </motion.div>
   );

@@ -41,6 +41,7 @@ import samariVelez from '../../img/story-img/ap-spanish/samari-velez-rect.png'
 import sethCastro from '../../img/story-img/ap-spanish/seth-castro-rect.png'
 import taniaM from '../../img/story-img/ap-spanish/tania-m-rect.png'
 import unknown1 from '../../img/story-img/ap-spanish/unknown-1-spanish-rect.png'
+import unknown2 from '../../img/story-img/ap-spanish/unknown2-spanish.png'
 import vladimirGonzalez from '../../img/story-img/ap-spanish/vladimir-gonzalez-rect.png'
 import oliverSconbes from '../../img/story-img/ap-spanish/oliver-sconbes-rect.png'
 import wendyH from '../../img/story-img/ap-spanish/wendy-h-rect.png'
@@ -142,8 +143,11 @@ function APSpanish() {
             <img className={img} src={oliverSconbes} alt="gabrielCueva"/>
           </div>
           <div className='lg:flex gap-10 items-center justify-center'>
+            <img className={img} src={unknown2} alt="gabrielCueva"/>
             <img className={img} src={wendyH} alt="dustinS"/>
             <img className={img} src={lukaJohnson} alt="emmelyAscencio"/>
+          </div>
+          <div className='lg:flex gap-10 items-center justify-center'>
             <img className={img} src={karlaSanJuan} alt="emmiGunderson"/>
           </div>
   		  </div>

@@ -38,6 +38,7 @@ function Stories() {
           </div>
           <div className='flex w-full justify-center lg:gap-5'>
             <HashLink className={button} smooth to="#humanities"> Humanities</HashLink>
+            <HashLink className={button} smooth to="#sociology">Sociology</HashLink>
 					  <HashLink className={button} smooth to="#lgbtq">LGBTQ+</HashLink>
           </div>
 				</div>
@@ -70,10 +71,18 @@ function Stories() {
 					<div className='lg:w-1/3 lg:p-10 px-10 flex flex-col items-center'>
 						<h2 className={h2}>Humanities</h2>
 						<p  className='font-light text-center'> Mrs. Blazian's Humanities class listened to Jimmy Santiago Baca's stories. Over the next few days they thought about what stories they would want to contribute and spent time writing their stories down. We asked students to be really authentic and honest in their stories, and many chose to stay anonymous because these stories are so personal. </p>
-						<Link id='lgbtq' className={buttonGold} to={"humanities"}>Stories</Link>
+						<Link id='sociology' className={buttonGold} to={"humanities"}>Stories</Link>
 					</div>
 				</div>
-				<div className='lg:flex flex-row justify-center gap-8 lg:mt-10 mt-10'>
+        <div className='lg:flex flex-row justify-center gap-8 lg:mt-10 mt-10'>
+					<div className='lg:w-1/3  p-10'> <img className={img} src={sociology} alt="AP Art Filler Image"/></div>
+					<div className='lg:w-1/3 lg:p-10 px-10 flex flex-col items-center'>
+						<h2 className={h2}>Sociology</h2>
+						<p  className='font-light text-center'> Jimmy Santiago Baca and professional comic book artist, Dimi Macheras, presented to the Sociology class and shared their stories. Mrs. Davies' Sociology class contributed their own stories and imagery to help come up with the ideas for the mural. </p>
+						<Link id='lgbtq' className={buttonGold} to={"sociology"}>Stories</Link>
+					</div>
+				</div>
+				<div className='lg:flex flex-row-reverse justify-center gap-8 lg:mt-10 mt-10'>
 					<div className='lg:w-1/3  p-10'> <img className={img} src={mmyes} alt="AP Art Filler Image"/></div>
 					<div className='lg:w-1/3 lg:p-10 px-10 flex flex-col items-center'>
 						<h2 className={h2}>LGBTQ+</h2>
