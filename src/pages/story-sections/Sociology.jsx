@@ -30,7 +30,7 @@ function Sociology() {
 	      <p className='text-xs text-mainText hidden lg:block text-right italic uppercase max-w-3xl p-5'>
 	        "I understand more deeply now that every single person has a story and they have faced afflictions and also great joys. I learned that you cannot judge others based on what’s on the surface, there is always so much more to somebody."
 	        <br/>
-	      	<span className='font-bold'>-Alexa Ledezma</span>
+	      	<span className='font-bold'>- Alexa Ledezma</span>
 	      </p>
 	    </div>
 			<div>

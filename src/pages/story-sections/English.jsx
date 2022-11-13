@@ -32,9 +32,9 @@ function English() {
             <p className='text-xs text-mainText lg:block text-right italic uppercase max-w-3xl'>Click on images for stories</p>
           </div>
   	      <p className='text-xs text-mainText hidden lg:block text-right italic uppercase max-w-3xl p-3'>
-  	        "To me, this mural represents both our potential and our calling to embrace diversity and allow everyone to bring their unique strengths to the table."
+  	        "I felt extremely comfortable because [Jimmy] is an indigenous Hispanic and his story meant a lot to me because he didn't sugar coat anything. He spoke his truth and expressed his love for being Hispanic, and it made me feel heard and extremely wanted. I loved every second of it."
   	        <br/>
-  	      	<span className='font-bold'>- Mark T. Forsyth</span>
+  	      	<span className='font-bold'>- Samari Velez</span>
   	      </p>
   	    </div>
   			<div>

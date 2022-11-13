@@ -13,9 +13,9 @@ function Updates() {
   	    <div className='pt-12 lg:pt-24 bg-bars text-text flex justify-between items-center lg:px-20 px-10 p-3 uppercase gap-44'>
   	      <h1 className='text-xl lg:text-3xl font-arvo font-thin'>Updates</h1>
   	      <p className='text-xs text-mainText hidden lg:block text-right italic uppercase max-w-3xl'>
-  	        "Quote." 
+  	        "I learned that many others struggle with the same things as me even if they’re not from the same ethnic background."
   	        <br/>
-  	      	<span className='font-bold'>- Name</span>
+  	      	<span className='font-bold'>- Luana Toro Ruiz</span>
   	      </p>
   	    </div>
   			<div className='flex justify-center flex-col items-center justify-center p-10 xl:px-52 w-full gap-10'>

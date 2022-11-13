@@ -21,9 +21,9 @@ function Gallery() {
       <div className='pt-12 lg:pt-20 bg-bars text-text flex justify-between items-center lg:px-20 px-10 p-3 uppercase'>
         <h1 className='text-xl lg:text-3xl font-arvo font-thin'>Photo Gallery</h1>
         <p className='text-xs text-mainText hidden lg:block text-right italic uppercase max-w-3xl p-5'>
-          "There is so much power in diversity—this mural proves that."
+          "I’ve learned to not assume that my life is harder than others because we were all able to open up and learn more about others." 
           <br/>
-        	<span className='font-bold'>- Drew E. Clark</span>
+        	<span className='font-bold'>- Kimberly Contreras</span>
         </p>
       </div>
   		<div>
