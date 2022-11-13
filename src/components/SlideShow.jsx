@@ -16,34 +16,35 @@ import classroomsTen from '../img/gallery/in-classrooms/CDEA-THS_RP-4126.jpg'
 
 
 function slideShow() {
+  const img = 'rounded-lg'
   return (
     <div>
       <div className='block md:hidden'>
         <Carousel swipeable infiniteLoop useKeyboardArrows autoPlay showThumbs={false}>
-          <div>  <img src={classroomsOne} alt="designs" /> </div>
-          <div>  <img src={classroomsTwo} alt="designs" /> </div>
-          <div>  <img src={classroomsThree} alt="designs" /> </div>
-          <div>  <img src={classroomsFour} alt="designs" /> </div>
-          <div>  <img src={classroomsFive} alt="designs" /> </div>
-          <div>  <img src={classroomsSix} alt="designs" /> </div>
-          <div>  <img src={classroomsSeven} alt="designs" /> </div>
-          <div>  <img src={classroomsEight} alt="designs" /> </div>
-          <div>  <img src={classroomsNine} alt="designs" /> </div>
-          <div>  <img src={classroomsTen} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsOne} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsTwo} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsThree} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsFour} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsFive} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsSix} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsSeven} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsEight} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsNine} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsTen} alt="designs" /> </div>
         </Carousel>
       </div>
       <div className='hidden md:block'>
         <Carousel swipeable infiniteLoop useKeyboardArrows autoPlay>
-          <div>  <img src={classroomsOne} alt="designs" /> </div>
-          <div>  <img src={classroomsTwo} alt="designs" /> </div>
-          <div>  <img src={classroomsThree} alt="designs" /> </div>
-          <div>  <img src={classroomsFour} alt="designs" /> </div>
-          <div>  <img src={classroomsFive} alt="designs" /> </div>
-          <div>  <img src={classroomsSix} alt="designs" /> </div>
-          <div>  <img src={classroomsSeven} alt="designs" /> </div>
-          <div>  <img src={classroomsEight} alt="designs" /> </div>
-          <div>  <img src={classroomsNine} alt="designs" /> </div>
-          <div>  <img src={classroomsTen} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsOne} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsTwo} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsThree} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsFour} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsFive} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsSix} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsSeven} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsEight} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsNine} alt="designs" /> </div>
+          <div>  <img className={img} src={classroomsTen} alt="designs" /> </div>
         </Carousel>
       </div>
     </div>

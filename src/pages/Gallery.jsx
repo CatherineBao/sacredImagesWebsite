@@ -2,6 +2,9 @@ import React from "react";
 import { motion } from "framer-motion"
 
 import SlideShow from '../components/SlideShow.jsx'
+import SlideShowTwo from '../components/SlideShowTwo.jsx'
+import SlideShowThree from '../components/SlideShowThree.jsx'
+import SlideShowFour from '../components/SlideShowFour.jsx'
 
 import classroomsOne from '../img/gallery/in-classrooms/CDEA-THS_3970.jpg'
 import classroomsTwo from '../img/gallery/in-classrooms/CDEA-THS_4004.jpg'
@@ -26,11 +29,29 @@ function Gallery() {
   		<div>
   			<h2 className='text-xl lg:text-3xl font-arvo font-thin p-3 uppercase lg:px-20 px-10 pt-10 mt-10 md:mb-5'>Jimmy and Dimmy in Classrooms</h2>
   		</div>
-       <div className='flex items-center justify-center'>
-         <div className='md:w-2/3 p-10'>
+       <div className='flex items-center justify-center p-10 '>
+         <div className='md:w-2/3 rounded-2xl'>
             <SlideShow/>
          </div>
        </div>
+       <h2 className='text-xl lg:text-3xl font-arvo font-thin p-3 uppercase lg:px-20 px-10 pt-10 mt-10 md:mb-5'>Symbols Brainstorm Session (LIA, APARt, Design Team)</h2>
+       <div className='flex items-center justify-center p-10 '>
+         <div className='md:w-2/3 rounded-2xl'>
+           <SlideShowTwo/>
+          </div>
+        </div>
+       <h2 className='text-xl lg:text-3xl font-arvo font-thin p-3 uppercase lg:px-20 px-10 pt-10 mt-10 md:mb-5'>Painting the Mural</h2>
+       <div className='flex items-center justify-center p-10 '>
+         <div className='md:w-2/3 rounded-2xl'>
+           <SlideShowThree/>
+          </div>
+        </div>
+        <h2 className='text-xl lg:text-3xl font-arvo font-thin p-3 uppercase lg:px-20 px-10 pt-10 mt-10 md:mb-5'>The Finial Unveiling</h2>
+       <div className='flex items-center justify-center p-10 mb-10'>
+         <div className='md:w-2/3 rounded-2xl'>
+           <SlideShowFour/>
+          </div>
+        </div>
     </div>
     </motion.div>
   );
