@@ -61,10 +61,27 @@ function Icon() {
   const [modalOpenSpecialEducation, setModalOpenSpecialEducation] = useState(true)
   const [modalOpenTitanTimberwolf, setModalOpenTitanTimberwolf] = useState(true)
   const [modalOpenSegoLily, setModalOpenSegoLily] = useState(true)
+  const [modalOpenMtTimpanogos, setModalOpenMtTimpanogos] = useState(true)
   
   return (
 		// <img style={{zIndex: "-10"}}src={muralImage} alt='Image for the interactive mural at Timpanogos.'className=''/>
     <div>
+      {!modalOpenMtTimpanogos ?
+          <div className='w-screen h-full'>
+              <div className='fixed absolute z-20 p-20 w-screen h-full bg-background/50' onClick={() => setModalOpenMtTimpanogos(s => !s)}>
+                <div className='flex items-center justify-center mt-20'>
+              <div className='fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto mt-[20vh] p-10 rounded-2xl'>
+                <h1 className='text-text uppercase mb-3 text-2xl'> Mt. Timpanogos:</h1>
+                <p className='text-mainText'> In nearly every design from students, the image of Mt. Timpanogos played a prominent role. The beautiful mountain is the symbol of home for so many of these students. Enjoying the outdoors and hiking in the mountains is also a favorite activity of many, many students- it’s part of the culture here. In a design session, one AP Art Student said it would be cool if the mountains could be shaped by wolves, forming a pack. Our visual artist, Dimi Macheras, ran with that idea and came up with the amazing design used in the mural, “The Strength of the Wolf is the Pack.”
+  </p>
+                <div className='p-10'>
+                  <img className='rounded-xl' src={MtTimpanogos} alt="avaFolkman"/>
+                </div>
+                </div>
+              </div>
+            </div>
+              </div>
+          : null}
       {!modalOpenSegoLily ?
           <div className='w-screen h-full'>
               <div className='fixed absolute z-20 p-20 w-screen h-full bg-background/50' onClick={() => setModalOpenSegoLily(s => !s)}>
@@ -414,7 +431,7 @@ function Icon() {
   	        ></circle>
   	        <circle onClick={() => setModalOpenTitanTimberwolf(s => !s)} cx="4232.093" cy="358.146" r="75.36" className={nodes}></circle>
   	        <circle onClick={() => setModalOpenSegoLily(s => !s)} cx="4900.632" cy="310.393" r="75.36" className={nodes}></circle>
-  	        <circle cx="6052.668" cy="692.416" r="75.36" className={nodes}></circle>
+  	        <circle onClick={() => setModalOpenMtTimpanogos(s => !s)} cx="6052.668" cy="692.416" r="75.36" className={nodes}></circle>
   	        <circle
   	          cx="5157.303"
   	          cy="2280.197"
