@@ -56,10 +56,44 @@ function Icon() {
   const [modalOpenSemicolon, setModalOpenSemicolon] = useState(true)
   const [modalOpenADHD, setModalOpenADHD] = useState(true)
   const [modalOpenLillyBegayWolf, setModalOpenLillyBegayWolf] = useState(true)
+  const [modalOpenDownSyndrome, setModalOpenDownSyndrome] = useState(true)
+  const [modalOpenPrideProgress, setModalOpenPrideProgress] = useState(true)
   
   return (
 		// <img style={{zIndex: "-10"}}src={muralImage} alt='Image for the interactive mural at Timpanogos.'className=''/>
     <div>
+      {!modalOpenPrideProgress ?
+          <div className='w-screen h-full'>
+              <div className='fixed absolute z-20 p-20 w-screen h-full bg-background/50' onClick={() => setModalOpenPrideProgress(s => !s)}>
+                <div className='flex items-center justify-center mt-20'>
+              <div className='fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto mt-[20vh] p-10 rounded-2xl'>
+                <h1 className='text-text uppercase mb-3 text-2xl'> Pride Progress Flag: </h1>
+                <p className='text-mainText'> In 2018 Daniel Quasar added five arrow-shaped chevrons to the six-colored Rainbow Flag, which is widely recognized as the symbol of lesbian, gay, bisexual and transgender (LGBTQ+) community. The newer Pride Progress flag includes black and brown stripes to represent marginalized LGBTQ+ communities of color, along with the colors pink, light blue and white, which are used on the Transgender Pride Flag.
+  </p>
+                <div className='p-10'>
+                  <img className='rounded-xl' src={PrideProgress} alt="avaFolkman"/>
+                </div>
+                </div>
+              </div>
+            </div>
+              </div>
+          : null}
+      {!modalOpenDownSyndrome ?
+          <div className='w-screen h-full'>
+              <div className='fixed absolute z-20 p-20 w-screen h-full bg-background/50' onClick={() => setModalOpenDownSyndrome(s => !s)}>
+                <div className='flex items-center justify-center mt-20'>
+              <div className='fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto mt-[20vh] p-10 rounded-2xl'>
+                <h1 className='text-text uppercase mb-3 text-2xl'> Down Syndrome:</h1>
+                <p className='text-mainText'> Designer Mica May came up with the symbol of three arrows on top of each other to represent Down Syndrome. Some have tattooed this to represent “the Lucky Few.” Three is symbolic of Down Syndrome, also called trisomy 21, in which children are born with three copies of the 21st chromosome. We wanted to somehow represent not only Down Syndrome students, but all of our Life Skills students
+  </p>
+                <div className='p-10'>
+                  <img className='rounded-xl' src={DownSyndrome} alt="avaFolkman"/>
+                </div>
+                </div>
+              </div>
+            </div>
+              </div>
+          : null}
       {!modalOpenLillyBegayWolf ?
           <div className='w-screen h-full'>
               <div className='fixed absolute z-20 p-20 w-screen h-full bg-background/50' onClick={() => setModalOpenLillyBegayWolf(s => !s)}>
@@ -329,12 +363,13 @@ function Icon() {
   	        ></circle>
   	        <circle onClick={() => setModalOpenLillyBegayWolf(s => !s)} cx="1975.773" cy="322.331" r="75.36" className={nodes}></circle>
   	        <circle
+              onClick={() => setModalOpenDownSyndrome(s => !s)}
   	          cx="3372.542"
   	          cy="1480.337"
   	          r="75.36"
   	          className={nodes}
   	        ></circle>
-  	        <circle cx="3587.43" cy="1784.761" r="75.36" className={nodes}></circle>
+  	        <circle onClick={() => setModalOpenPrideProgress(s => !s)} cx="3587.43" cy="1784.761" r="75.36" className={nodes}></circle>
   	        <circle
   	          cx="3665.028"
   	          cy="2047.402"
