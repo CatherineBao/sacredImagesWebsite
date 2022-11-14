@@ -58,10 +58,28 @@ function Icon() {
   const [modalOpenLillyBegayWolf, setModalOpenLillyBegayWolf] = useState(true)
   const [modalOpenDownSyndrome, setModalOpenDownSyndrome] = useState(true)
   const [modalOpenPrideProgress, setModalOpenPrideProgress] = useState(true)
+  const [modalOpenSpecialEducation, setModalOpenSpecialEducation] = useState(true)
+  const [modalOpenTitanTimberwolf, setModalOpenTitanTimberwolf] = useState(true)
   
   return (
 		// <img style={{zIndex: "-10"}}src={muralImage} alt='Image for the interactive mural at Timpanogos.'className=''/>
     <div>
+      {!modalOpenTitanTimberwolf ?
+          <div className='w-screen h-full'>
+              <div className='fixed absolute z-20 p-20 w-screen h-full bg-background/50' onClick={() => setModalOpenTitanTimberwolf(s => !s)}>
+                <div className='flex items-center justify-center mt-20'>
+              <div className='fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto mt-[20vh] p-10 rounded-2xl'>
+                <h1 className='text-text uppercase mb-3 text-2xl'> Special Education: </h1>
+                <p className='text-mainText'> This is another nod to our Special Education communities here at Timpanogos, whether that be Life Skills students or students who have Individualized Education Plans (IEPs) to help them be more successful in school. We also wanted to shout out to our Special Education educators, paraeducators, and aides that throughout the school. 
+  </p>
+                <div className='p-10'>
+                  <img className='rounded-xl' src={TitanTimberwolf} alt="avaFolkman"/>
+                </div>
+                </div>
+              </div>
+            </div>
+              </div>
+          : null}
       {!modalOpenPrideProgress ?
           <div className='w-screen h-full'>
               <div className='fixed absolute z-20 p-20 w-screen h-full bg-background/50' onClick={() => setModalOpenPrideProgress(s => !s)}>
@@ -371,6 +389,7 @@ function Icon() {
   	        ></circle>
   	        <circle onClick={() => setModalOpenPrideProgress(s => !s)} cx="3587.43" cy="1784.761" r="75.36" className={nodes}></circle>
   	        <circle
+              onClick={() => setModalOpenSpecialEducation(s => !s)}
   	          cx="3665.028"
   	          cy="2047.402"
   	          r="75.36"
