@@ -60,17 +60,34 @@ function Icon() {
   const [modalOpenPrideProgress, setModalOpenPrideProgress] = useState(true)
   const [modalOpenSpecialEducation, setModalOpenSpecialEducation] = useState(true)
   const [modalOpenTitanTimberwolf, setModalOpenTitanTimberwolf] = useState(true)
+  const [modalOpenSegoLily, setModalOpenSegoLily] = useState(true)
   
   return (
 		// <img style={{zIndex: "-10"}}src={muralImage} alt='Image for the interactive mural at Timpanogos.'className=''/>
     <div>
+      {!modalOpenSegoLily ?
+          <div className='w-screen h-full'>
+              <div className='fixed absolute z-20 p-20 w-screen h-full bg-background/50' onClick={() => setModalOpenSegoLily(s => !s)}>
+                <div className='flex items-center justify-center mt-20'>
+              <div className='fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto mt-[20vh] p-10 rounded-2xl'>
+                <h1 className='text-text uppercase mb-3 text-2xl'> Sego Lily:</h1>
+                <p className='text-mainText'> We put in a Sego Lily as a tribute to the pioneer heritage of Utah. The pioneers of 1848–49 ate the sego lily bulb to help ward off starvation. Some bulbs were as large as walnuts, but most were the size of marbles. Many students and teachers at this school are descended from those original Utah pioneers. The design for the sego lily was drawn by Johanna Behm.
+  </p>
+                <div className='p-10'>
+                  <img className='rounded-xl' src={SegoLily} alt="avaFolkman"/>
+                </div>
+                </div>
+              </div>
+            </div>
+              </div>
+          : null}
       {!modalOpenTitanTimberwolf ?
           <div className='w-screen h-full'>
               <div className='fixed absolute z-20 p-20 w-screen h-full bg-background/50' onClick={() => setModalOpenTitanTimberwolf(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
               <div className='fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto mt-[20vh] p-10 rounded-2xl'>
-                <h1 className='text-text uppercase mb-3 text-2xl'> Special Education: </h1>
-                <p className='text-mainText'> This is another nod to our Special Education communities here at Timpanogos, whether that be Life Skills students or students who have Individualized Education Plans (IEPs) to help them be more successful in school. We also wanted to shout out to our Special Education educators, paraeducators, and aides that throughout the school. 
+                <h1 className='text-text uppercase mb-3 text-2xl'> Titan T-Wolf: </h1>
+                <p className='text-mainText'> Since our school was founded, our mascot has been the Timberwolves. Our mascot is named Titan. The title of this mural is, “The Strength of the Wolf is the Pack.” Some goals of this mural are to highlight individuals that make up the diversity of our school, but to also show unity; just as a pack is made up of individual wolves, but the strength lies in the unity of the pack. As we were developing ideas for the mural, we really liked Brinley Gardner’s rendering of a timberwolf as our starting point.
   </p>
                 <div className='p-10'>
                   <img className='rounded-xl' src={TitanTimberwolf} alt="avaFolkman"/>
@@ -395,8 +412,8 @@ function Icon() {
   	          r="75.36"
   	          className={nodes}
   	        ></circle>
-  	        <circle cx="4232.093" cy="358.146" r="75.36" className={nodes}></circle>
-  	        <circle cx="4900.632" cy="310.393" r="75.36" className={nodes}></circle>
+  	        <circle onClick={() => setModalOpenTitanTimberwolf(s => !s)} cx="4232.093" cy="358.146" r="75.36" className={nodes}></circle>
+  	        <circle onClick={() => setModalOpenSegoLily(s => !s)} cx="4900.632" cy="310.393" r="75.36" className={nodes}></circle>
   	        <circle cx="6052.668" cy="692.416" r="75.36" className={nodes}></circle>
   	        <circle
   	          cx="5157.303"
