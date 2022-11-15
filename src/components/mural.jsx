@@ -66,10 +66,95 @@ function Icon() {
   const [modalOpenNephiMatagi, setModalOpenNephiMatagi] = useState(true)
   const [modalOpenDrewClark, setModalOpenDrewClark] = useState(true)
   const [modalOpenCatalinaCasallas, setModalOpenCatalinaCasallas] = useState(true)
+  const [modalOpenTalanGardner, setModalOpenTalanGardner] = useState(true)
+  const [modalOpenWolfPackSchoolSpirit, setModalOpenWolfPackSchoolSpirit] = useState(true)
+  const [modalOpenSun, setModalOpenSun] = useState(true)
+  const [modalOpenButterflies, setModalOpenButterflies] = useState(true)
+  const [modalOpenKintsugi, setModalOpenKintsugi] = useState(true)
 
   return (
     // <img style={{zIndex: "-10"}}src={muralImage} alt='Image for the interactive mural at Timpanogos.'className=''/>
     <div>
+      {!modalOpenKintsugi ?
+        <div className=''>
+          <div className='fixed absolute z-20 p-5 md:p-20 w-screen h-full bg-background/50' onClick={() => setModalOpenKintsugi(s => !s)}>
+            <div className='flex items-center justify-center mt-20'>
+              <div className='fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto lg:mt-[20vh] md:mt-[30vh] mt-[60vh] p-10 rounded-2xl'>
+                <h1 className='text-text uppercase mb-3 text-2xl'> Kintsugi:</h1>
+                <p className='text-mainText'> Kintsugi is a Japanese pottery technique. When a pot breaks, rather than throw it away, it is repaired with gold which makes it stronger as well as more beautiful. This symbol resonated with students as a sign of healing and that, even though we may sometimes be broken, we should not be discarded. The scars that heal our wounds make us stronger and more beautiful. 
+                </p>
+                <div className='p-3 mt-3 md:p-10'>
+                  <img className='rounded-xl' src={Kintsugi} alt="avaFolkman" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        : null}
+      {!modalOpenButterflies ?
+        <div className=''>
+          <div className='fixed absolute z-20 p-5 md:p-20 w-screen h-full bg-background/50' onClick={() => setModalOpenButterflies(s => !s)}>
+            <div className='flex items-center justify-center mt-20'>
+              <div className='fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto lg:mt-[20vh] md:mt-[30vh] mt-[60vh] p-10 rounded-2xl'>
+                <h1 className='text-text uppercase mb-3 text-2xl'> Butterflies:</h1>
+                <p className='text-mainText'> A recurring symbol in student designs is that of a butterfly. Like many of our students who represent cultures across the world, butterflies migrate from place to place. Butterflies are also a symbol of hope, growth, and change. We included the gold Monarch butterfly and the blue Morpho butterfly from the Amazon. Drawings included are Alexa Ledezma (left) and Alia Anderson (right).
+                </p>
+                <div className='p-3 mt-3 md:p-10'>
+                  <img className='rounded-xl' src={Butterflies} alt="avaFolkman" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        : null}
+      {!modalOpenSun ?
+        <div className=''>
+          <div className='fixed absolute z-20 p-5 md:p-20 w-screen h-full bg-background/50' onClick={() => setModalOpenSun(s => !s)}>
+            <div className='flex items-center justify-center mt-20'>
+              <div className='fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto lg:mt-[20vh] md:mt-[30vh] mt-[60vh] p-10 rounded-2xl'>
+                <h1 className='text-text uppercase mb-3 text-2xl'> Sun:</h1>
+                <p className='text-mainText'> Many student designs had a sun rising up over Mt. Timpanogos. The sun symbolizes a new day, hope, joy, and energy. Each morning the sun rises over Mt. Timpanogos. Oftentimes in the evening, Mt. Timpanogos looks like it is on fire with gorgeous oranges, pinks, and purples as the sun sets. These beautiful moments give hope and joy each day. Alexa Ledezma drew the sun in this initial design.
+                </p>
+                <div className='p-3 mt-3 md:p-10'>
+                  <img className='rounded-xl' src={Sun} alt="avaFolkman" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        : null}
+      {!modalOpenWolfPackSchoolSpirit ?
+        <div className=''>
+          <div className='fixed absolute z-20 p-5 md:p-20 w-screen h-full bg-background/50' onClick={() => setModalOpenWolfPackSchoolSpirit(s => !s)}>
+            <div className='flex items-center justify-center mt-20'>
+              <div className='fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto lg:mt-[20vh] md:mt-[30vh] mt-[60vh] p-10 rounded-2xl'>
+                <h1 className='text-text uppercase mb-3 text-2xl'> Wolf Pack School Spirit:</h1>
+                <p className='text-mainText'> Although the five different portraits represent the diversity at Timpanogos High School, there is incredible unity and school spirit here. We have the most amazing Spirit Bowl anywhere. We have an incredible cheering section at sporting events, oftentimes dressing in different colors or themes to show school spirit. The silhouettes of cheering students symbolizes that we support each other, whether in athletics, arts, or academics. 
+                </p>
+                <div className='p-3 mt-3 md:p-10'>
+                  <img className='rounded-xl' src={WolfPackSchoolSpirit} alt="avaFolkman" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        : null}
+      {!modalOpenTalanGardner ?
+        <div className=''>
+          <div className='fixed absolute z-20 p-5 md:p-20 w-screen h-full bg-background/50' onClick={() => setModalOpenTalanGardner(s => !s)}>
+            <div className='flex items-center justify-center mt-20'>
+              <div className='fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto lg:mt-[20vh] md:mt-[30vh] mt-[60vh] p-10 rounded-2xl'>
+                <h1 className='text-text uppercase mb-3 text-2xl'> Talan Gardner:</h1>
+                <p className='text-mainText'> Talan is one of the kindest, most caring students at Timpanogos High School. He always makes people feel valued and welcome. Talan is also one of the few Caucasian students in Latinos in Action because he did a Portuguese immersion program throughout elementary school. Talan also wanted to share a story about having ADHD and how that represents a significant number of students here at Timpanogos. Hear Talan’s story in <a className='text-text' href='https://www.youtube.com/watch?v=rFm2rmmOUqc&feature=youtu.be' target="_blank" > this video clip</a>
+                </p>
+                <div className='p-3 mt-3 md:p-10'>
+                  <img className='rounded-xl' src={TalanGardner} alt="avaFolkman" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        : null}
       {!modalOpenCatalinaCasallas ?
         <div className=''>
           <div className='fixed absolute z-20 p-5 md:p-20 w-screen h-full bg-background/50' onClick={() => setModalOpenCatalinaCasallas(s => !s)}>
@@ -539,20 +624,23 @@ function Icon() {
                 className={nodes}
               ></circle>
               <circle
+                onClick={() => setModalOpenTalanGardner(s => !s)}
                 cx="9370.157"
                 cy="2169.487"
                 r="75.36"
                 className={nodes}
               ></circle>
               <circle
+                onClick={() => setModalOpenWolfPackSchoolSpirit(s => !s)}
                 cx="7926.647"
                 cy="3224.685"
                 r="75.36"
                 className={nodes}
               ></circle>
-              <circle cx="9927.302" cy="211.04" r="75.36" className={nodes}></circle>
-              <circle cx="4701.962" cy="928.574" r="75.36" className={nodes}></circle>
+              <circle  onClick={() => setModalOpenSun(s => !s)} cx="9927.302" cy="211.04" r="75.36" className={nodes}></circle>
+              <circle onClick={() => setModalOpenButterflies(s => !s)} cx="4701.962" cy="928.574" r="75.36" className={nodes}></circle>
               <circle
+                onClick={() => setModalOpenKintsugi(s => !s)}
                 cx="4457.156"
                 cy="1781.174"
                 r="75.36"
