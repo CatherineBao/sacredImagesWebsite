@@ -62,6 +62,7 @@ function Icon() {
   const [modalOpenTitanTimberwolf, setModalOpenTitanTimberwolf] = useState(true)
   const [modalOpenSegoLily, setModalOpenSegoLily] = useState(true)
   const [modalOpenMtTimpanogos, setModalOpenMtTimpanogos] = useState(true)
+  const [modalOpenFynnPedersen, setModalOpenFynnPedersen] = useState(true)
   
   return (
 		// <img style={{zIndex: "-10"}}src={muralImage} alt='Image for the interactive mural at Timpanogos.'className=''/>
@@ -76,6 +77,38 @@ function Icon() {
   </p>
                 <div className='p-10'>
                   <img className='rounded-xl' src={MtTimpanogos} alt="avaFolkman"/>
+                </div>
+                </div>
+              </div>
+            </div>
+              </div>
+          : null}
+      {!modalOpenSpecialEducation ?
+          <div className='w-screen h-full'>
+              <div className='fixed absolute z-20 p-20 w-screen h-full bg-background/50' onClick={() => setModalOpenSpecialEducation(s => !s)}>
+                <div className='flex items-center justify-center mt-20'>
+              <div className='fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto mt-[20vh] p-10 rounded-2xl'>
+                <h1 className='text-text uppercase mb-3 text-2xl'> Special Education:</h1>
+                <p className='text-mainText'> This is another nod to our Special Education communities here at Timpanogos, whether that be Life Skills students or students who have Individualized Education Plans (IEPs) to help them be more successful in school. We also wanted to shout out to our Special Education educators, paraeducators, and aides that throughout the school. 
+  </p>
+                <div className='p-10'>
+                  <img className='rounded-xl' src={SpecialEducation} alt="avaFolkman"/>
+                </div>
+                </div>
+              </div>
+            </div>
+              </div>
+          : null}
+      {!modalOpenFynnPedersen ?
+          <div className='w-screen h-full'>
+              <div className='fixed absolute z-20 p-20 w-screen h-full bg-background/50' onClick={() => setModalOpenFynnPedersen(s => !s)}>
+                <div className='flex items-center justify-center mt-20'>
+              <div className='fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto mt-[20vh] p-10 rounded-2xl'>
+                <h1 className='text-text uppercase mb-3 text-2xl'> Fynn Pedersen:</h1>
+                <p className='text-mainText'> Fynn is an outstanding student involved in orchestra, basketball, and theater tech crew. Fynn is also a member of the LGBTQ+ community.  Hear Fynn’s story in <a className='text-text' href='https://www.youtube.com/watch?v=NSLE-c2PPjA&feature=youtu.be' target="_blank" > this video clip</a>
+  </p>
+                <div className='p-10'>
+                  <img className='rounded-xl' src={FynnPedersen} alt="avaFolkman"/>
                 </div>
                 </div>
               </div>
@@ -433,6 +466,7 @@ function Icon() {
   	        <circle onClick={() => setModalOpenSegoLily(s => !s)} cx="4900.632" cy="310.393" r="75.36" className={nodes}></circle>
   	        <circle onClick={() => setModalOpenMtTimpanogos(s => !s)} cx="6052.668" cy="692.416" r="75.36" className={nodes}></circle>
   	        <circle
+              onClick={() => setModalOpenFynnPedersen(s => !s)}
   	          cx="5157.303"
   	          cy="2280.197"
   	          r="75.36"
