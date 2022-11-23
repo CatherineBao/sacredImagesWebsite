@@ -27,14 +27,14 @@ function Gallery() {
         </p>
       </div>
   		<div>
-  			<h2 className='text-xl lg:text-3xl font-arvo font-thin p-3 uppercase lg:px-20 px-10 pt-10 mt-10 md:mb-5'>Jimmy and Dimmy in Classrooms</h2>
+  			<h2 className='text-xl lg:text-3xl font-arvo font-thin p-3 uppercase lg:px-20 px-10 pt-10 mt-10 md:mb-5'>Jimmy and Dimi in Classrooms</h2>
   		</div>
        <div className='flex items-center justify-center p-10 '>
          <div className='md:w-2/3 rounded-2xl'>
             <SlideShow/>
          </div>
        </div>
-       <h2 className='text-xl lg:text-3xl font-arvo font-thin p-3 uppercase lg:px-20 px-10 pt-10 mt-10 md:mb-5'>Symbols Brainstorm Session (LIA, APARt, Design Team)</h2>
+       <h2 className='text-xl lg:text-3xl font-arvo font-thin p-3 uppercase lg:px-20 px-10 pt-10 mt-10 md:mb-5'>Latinos In Action/AP Art/THS Design Team Collaboration</h2>
        <div className='flex items-center justify-center p-10 '>
          <div className='md:w-2/3 rounded-2xl'>
            <SlideShowTwo/>

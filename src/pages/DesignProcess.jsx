@@ -106,7 +106,7 @@ function DesignProcess() {
             </div>
             <div>
               <div> <img className={img} src={nephi} alt="nephi" /> </div>
-              <p className={p}> <span className={title}> Claw Design </span><br /> nephi</p>
+              <p className={p}> <span className={title}> Claw Design </span><br /> nephi matagi</p>
             </div>
           </div>
         </div>
@@ -140,21 +140,21 @@ function DesignProcess() {
           <div className='flex md:w-1/2 gap-10 items-end'>
             <div className='w-1/2'>
               <div> <img className={img} src={nephiww} alt="nephi-matagi" /> </div>
-              <p className={p}><span className={title}> anna davis</span> <br />nephi matagi</p>
+              <p className={p}> <span className={title}> nephi matagi </span>   <br /> anna davis</p>
             </div>
             <div className='w-1/2'>
               <div> <img className={img} src={sun} alt="designs" /> </div>
-              <p className={p}><span className={title}> alexa ledezma</span><br />sun designs </p>
+              <p className={p}><span className={title}>sun designs</span>  <br />alexa ledezma  </p>
             </div>
           </div>
           <div className='flex md:w-1/2 gap-10 items-end'>
             <div className='w-1/2'>
               <div> <img className={img} src={butterflies} alt="butterflies" /> </div>
-              <p className={p}> <span className={title}> alia anderson</span><br /> butterfly designs </p>
+              <p className={p}> <span className={title}> butterfly designs </span><br /> alia anderson </p>
             </div>
             <div className='w-1/2'>
               <div> <img className={img} src={fynn} alt="fynn-portrait" /> </div>
-              <p className={p}> <span className={title}> fynn portrait</span> <br />  Abby Brockbank</p>
+              <p className={p}> <span className={title}> Abby Brockbank </span> <br />Finn portrait  </p>
             </div>
           </div>
         </div>
