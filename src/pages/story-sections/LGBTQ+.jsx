@@ -13,12 +13,16 @@ import unknown3 from '../../img/story-img/lgbtq/unknown-lgbt-rect.png'
 
 function LGBTQ() {
   const img = 'rounded-2xl lg:w-1/4 w-full mb-10 hover:drop-shadow-lg hover:cursor-pointer border-2 border-background hover:border-text duration-300'
+  const imgNoHover = 'rounded-2xl lg:w-1/4 w-full mb-10 hover:drop-shadow-lg'
 	const [modalOpen, setModalOpen] = useState(true)
   const [modalOpenTwo, setModalOpenTwo] = useState(true)
   const [modalOpenThree, setModalOpenThree] = useState(true)
   const [modalOpenFour, setModalOpenFour] = useState(true)
   const [modalOpenFive, setModalOpenFive] = useState(true)
   const [modalOpenSix, setModalOpenSix] = useState(true)
+
+  const modal = "fixed z-20 bg-background/50 p-20 w-screen h-full"
+  const modalBlock = "fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto mt-[60vh] p-10 rounded-2xl"
   return (
     <motion.div
       initial={{ opacity:0 }}
@@ -28,9 +32,9 @@ function LGBTQ() {
 	    <div className='bg-background text-text'>
         {!modalOpen ?
           <div className='w-screen h-full'>
-              <div className='fixed z-20 bg-background/50 p-20 w-screen h-full' onClick={() => setModalOpen(s => !s)}>
+              <div className={modal} onClick={() => setModalOpen(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
-              <div className='fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto mt-[60vh] p-10 rounded-2xl'>
+              <div className={modalBlock}>
                 <h1 className='text-text uppercase mb-3 text-2xl'> Natalie Otis </h1>
               <p className='text-mainText'>
               To tell the truth, I could go on and on and on about everything that has happened in my life, but instead, I'm going to pick key components that shaped who I am. Before I do that, however, let's start with the basics. <br/> <br/>
@@ -56,9 +60,9 @@ Ignorance is something that is taught, not something you’re born with, and tha
         : null}
         {!modalOpenTwo ?
           <div className='w-screen h-full'>
-              <div className='fixed z-20 bg-background/50 p-20 w-screen h-full' onClick={() => setModalOpenTwo(s => !s)}>
+              <div className={modal} onClick={() => setModalOpenTwo(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
-              <div className='fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto mt-[60vh] p-10 rounded-2xl'>
+              <div className={modalBlock}>
                 <h1 className='text-text uppercase mb-3 text-2xl'>  Morgan Smith </h1>
               <p className='text-mainText'>
               My story starts later in my life. I was in 7th grade where I began to experiment with my sexual and gender identity. No one in my family at that time had been open about it so I had to do it secretly without anyone guiding me. And since my family was LDS, I would search on google "is being gay a sin?" "Does LDS accept gay people?" <br/> <br/>
@@ -74,9 +78,9 @@ But this hassle in my identity led my brother to be able to come out and unlike 
           : null}
         {!modalOpenThree ?
           <div className='w-screen h-full'>
-              <div className='fixed z-20 bg-background/50 p-20 w-screen h-full' onClick={() => setModalOpenThree(s => !s)}>
+              <div className={modal} onClick={() => setModalOpenThree(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
-              <div className='fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto mt-[60vh] p-10 rounded-2xl'>
+              <div className={modalBlock}>
                 <h1 className='text-text uppercase mb-3 text-2xl'>  Finnean Smith </h1>
               <p className='text-mainText'>
               My story starts when I first started questioning my gender. I was in sixth grade when I felt that my body didn’t fit me, that something was off in the way I looked and sounded. I would spend days crying because something wasn’t quite right, and I thought that I was one of the only people in the world who felt like this. I wanted so desperately to believe that I was a girl, but deep down I knew I wasn’t. As time went on this deep rooted hatred of my voice body grew. I felt so bad about myself and thought I could never outgrow this. As time went on I pushed the feeling of my body being wrong into the back of my head, and the deep hatred of myself grew. Near the end of seventh grade I learned about being transgender from others on the internet, hearing others stories that sounded like mine was awe inspiring. I began to put pieces together in my mind and realized that I am a boy. I am a boy who’s just found himself. Now, a couple years later I am happier than I have ever been, and I am me. 
@@ -88,9 +92,9 @@ But this hassle in my identity led my brother to be able to come out and unlike 
           : null}
         {!modalOpenFour ?
           <div className='w-screen h-full'>
-              <div className='fixed z-20 bg-background/50 p-20 w-screen h-full' onClick={() => setModalOpenFour(s => !s)}>
+              <div className={modal} onClick={() => setModalOpenFour(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
-              <div className='fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto mt-[60vh] p-10 rounded-2xl'>
+              <div className={modalBlock}>
                 <h1 className='text-text uppercase mb-3 text-2xl'>  Anonymous </h1>
               <p className='text-mainText'>
              Reflecting back on when I was younger, I realize that I was different from the rest of my peers from the very beginning. Despite not really thinking too deeply about identity, gender, and sexuality as a kid, I always sort of knew deep down that I wasn’t what most people considered the norm. <br/><br/>
@@ -107,9 +111,9 @@ Ignorance is something that is taught, not something you’re born with, and tha
           : null}
         {!modalOpenFive ?
           <div className='w-screen h-full'>
-              <div className='fixed z-20 bg-background/50 p-20 w-screen h-full' onClick={() => setModalOpenFive(s => !s)}>
+              <div className={modal} onClick={() => setModalOpenFive(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
-              <div className='fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto mt-[60vh] p-10 rounded-2xl'>
+              <div className={modalBlock}>
                 <h1 className='text-text uppercase mb-3 text-2xl'>  Anonymous </h1>
               <p className='text-mainText'>
               She smiles in front of everyone, like the perfect student she is. Oh how I envy her.
@@ -171,9 +175,9 @@ I don't exactly know who I am. I could be him, I could be them, but I do know on
           : null}
         {!modalOpenSix ?
           <div className='w-screen h-full'>
-              <div className='fixed z-20 bg-background/50 p-20 w-screen h-full' onClick={() => setModalOpenSix(s => !s)}>
+              <div className={modal} onClick={() => setModalOpenSix(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
-              <div className='fixed z-30 bg-background w-2/3 h-[80vh] overflow-y-auto mt-[60vh] p-10 rounded-2xl'>
+              <div className={modalBlock}>
                 <h1 className='text-text uppercase mb-3 text-2xl'>  Anonymous </h1>
               <p className='text-mainText'>
               How everyone has anxieties and fears but we all have friends to help.
@@ -207,7 +211,7 @@ Being able to be yourself and being accepted.
           </div>
 							<div className='lg:flex gap-10 items-center justify-center'>
             <img onClick={() => setModalOpenThree(s => !s)} className={img} src={finneanSmith} alt="avaFolkman"/>
-            <img className={img} src={ivyAnderton} alt="avaFolkman"/>
+            <img className={imgNoHover} src={ivyAnderton} alt="avaFolkman"/>
             <img onClick={() => setModalOpen(s => !s)} className={img} src={natalieOtis} alt="natalieOtis"/>
           </div>
            <div className='lg:flex gap-10 items-center justify-center'>
