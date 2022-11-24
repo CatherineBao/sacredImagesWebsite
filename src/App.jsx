@@ -1,5 +1,4 @@
 import React from "react";
-import Mural from './components/mural.jsx'
 import { useState } from 'react';
 import { motion, AnimatePresence } from "framer-motion"
 
