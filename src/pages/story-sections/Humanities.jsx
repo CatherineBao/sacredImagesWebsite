@@ -196,7 +196,7 @@ I don’t understand why can’t they be nice<br/>
 Slice<br/>
 But is it worth it<br/>
 I need some advice<br/>
-<span className='text-right'> Just think about it twice </span><br/>
+<p className='text-right'> Just think about it twice </p>
 The kids don’t know how much damage their doing<br/>
 I’m on my knees<br/>
 Please<br/>
@@ -204,7 +204,7 @@ I sit here praying<br/>
 So you guys will understand what I’m intending<br/>
 My poor life is slowly bending<br/>
 Until finally it will snap<br/>
-<span className='text-right'> Don’t walk into this abyss of black </span><br/>
+<p className='text-right'> Don’t walk into this abyss of black </p>
 I don’t want to do this<br/>
 My life is just a black, empty gap<br/>
 It’s the only option left<br/>
@@ -215,7 +215,7 @@ Thump<br/>
 I hear my heavy heart<br/>
 Trying to support the life that will not start<br/>
 I want this to end<br/>
-<span className='text-right'> But life is about being bent </span><br/>
+<p className='text-right'> But life is about being bent </p>
 This is it<br/>
 Please understand<br/>
 Someone should’ve took a stand<br/>
@@ -226,20 +226,20 @@ Please unlock your heart which is a vault<br/>
 If only my true self had really shown<br/>
 I might finally have my peace<br/>
 The world is better off without me<br/>
-<span className='text-right'> But… </span><br/>
+<p className='text-right'> But… </p>
 No<br/>
 This is it<br/>
 I no longer have a choice<br/>
 I should've used my voice<br/>
 I should’ve made the choice<br/>
-<span className='text-right'> Come on let’s forget this and rejoice </span><br/>
+<p className='text-right'> Come on let’s forget this and rejoice </p>
 Maybe…<br/>
-<span className='text-right'> NO It’s too late I no longer have a choice<br/>
+<p className='text-right'> NO It’s too late I no longer have a choice<br/>
 You always have the decision<br/>
 No matter what, just know your end vision<br/>
 No matter your choice<br/>
 Never hide your voice<br/>
-Know, whatever you choose I will love you </span><br/>
+Know, whatever you choose I will love you </p>
 Maybe…<br/>
 I should Think Twice
                   </p>
@@ -516,7 +516,7 @@ I want to be known for those actions, for doing good, for influencing people, fo
                   <div className='flex items-center justify-center mt-20'>
                 <div className={modalBlock}>
                   <h1 className='text-text uppercase mb-3 text-2xl'>Anonymous</h1>
-                  <p className='text-mainText'>
+                  <p className='text-mainText text-center'>
             I started with no steps, <br/>
 then added a few.<br/>
 Months go by and more come on by.<br/>

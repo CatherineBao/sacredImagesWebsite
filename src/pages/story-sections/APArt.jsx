@@ -219,7 +219,8 @@ I entered high school hopeless and extremely self conscious. Then I met some of 
                 <h1 className='text-text uppercase mb-3 text-2xl'>Brenna Bronson</h1>
               <p className='text-mainText'>
              I ultimately want to be known as a person who was kind, strong, faithful, and a loyal friend. I want to bring kindness and unconditional love into this world. Times are hard and we need to bring hope and peace to everyone we come in contact with. My life has been filled with a ton of ups and downs just like everyone else. I have been extremely blessed with a loving and supportive family. I started playing soccer when I was 4 years old and because of that sport I experienced some of my highest ups like going to national tournaments, traveling all over the country, offers and scholarships and winning. But I also experienced many downs like multiple injuries including my knee, foot, head etc. I am grateful for the downs because they make me appreciate the highs even more. I’ve grown up in a very religious household and still remain very faithful in my religion. My purpose in life is love and serve the way God and Jesus do. More recently I have experienced more downs. When I first found out about my tumor my mindset got the best of me. Trying to manage school, work, and friends all while dealing with depression and anxiety, felt almost unbearable. As I continued to push forward, I have discovered more purpose in my life. I can see now how all of these experiences shaped my life and my perspective. I realized the importance of self-growth and love, as well as trusting in God’s plan and timing for my life. <br/><br/>
-Simple Steps by Brenna Bronson<br/><br/>
+                <p className='text-center'>
+                  Simple Steps by Brenna Bronson<br/><br/>
 I started with no steps,<br/>
 then added a few.<br/>
 Months go by and more come on by.<br/>
@@ -242,6 +243,7 @@ They may seem hard and your future seems far.<br/>
 But when your steps are all gone,<br/>
 And you long for more.<br/>
 Hopefully you made the most of your few given steps.<br/>
+                </p>
               </p>
               </div>
             </div>
