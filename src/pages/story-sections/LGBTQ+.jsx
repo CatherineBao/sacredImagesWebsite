@@ -224,7 +224,7 @@ I don't exactly know who I am. I could be him, I could be them, but I do know on
                 <div className='flex items-center justify-center mt-20'>
               <div className={modalBlock}>
                 <h1 className='text-text uppercase mb-3 text-2xl'>  Anonymous </h1>
-              <p className='text-mainText'>
+              <p className='text-mainText text-center'>
               How everyone has anxieties and fears but we all have friends to help.
 <br/><br/>
 Being able to express yourself and being able to show your true self and how you can find people that have the same interests.

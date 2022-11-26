@@ -81,7 +81,7 @@ Ignorance is something that is taught, not something you’re born with, and tha
                 <div className='flex items-center justify-center mt-20'>
               <div className={modalBlock}>
                 <h1 className='text-text uppercase mb-3 text-2xl'>anonymous</h1>
-              <p className='text-mainText'>
+              <p className='text-mainText text-center'>
                 I feel confined by people’s assumptions and expectations of me <br/> 
 I feel the need to people please <br/> 
 I feel that I’m not good enough for anyone to see <br/> 

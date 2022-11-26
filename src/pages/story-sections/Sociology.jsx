@@ -91,8 +91,8 @@ a moment to be loved wanted
                     <div className={modalBlock}>
                       <h1 className='text-text uppercase mb-3 text-2xl'>Britton Muffitt</h1>
                       <p className='text-mainText'>
-          “You traded the mystery for the money.” I would, money is money take that money and create a new mystery/ Why would i pass up the opportunity. <br/>
-Something about me is that I'm the bossman. I’m bossman Britton. I do what I want when I want. Why? Because I’m bossman Britton.<br/>
+          “You traded the mystery for the money.” I would, money is money take that money and create a new mystery/ Why would i pass up the opportunity. <br/><br/>
+Something about me is that I'm the bossman. I’m bossman Britton. I do what I want when I want. Why? Because I’m bossman Britton.<br/><br/>
 	Who am I? I’m bossman Britton. How does the name relate to me? I do what I want when I want whether it benefits me or doesn’t.
                       </p>
                 </div>
@@ -200,7 +200,7 @@ Something about me is that I'm the bossman. I’m bossman Britton. I do what I w
                     <div className={modalBlock}>
                       <h1 className='text-text uppercase mb-3 text-2xl'>Kayla Wright</h1>
                       <p className='text-mainText'>
-          I’d want to feel that flower. It’s beautiful to me to see, and feel something beautiful. I want to capture beauty and not hurt it. When I was little, I would blow a kiss to everyone I loved before I went to bed. I didn’t tell them to their face that I loved them. But I felt that my quiet love would keep them safe and happy. <br/>
+          I’d want to feel that flower. It’s beautiful to me to see, and feel something beautiful. I want to capture beauty and not hurt it. When I was little, I would blow a kiss to everyone I loved before I went to bed. I didn’t tell them to their face that I loved them. But I felt that my quiet love would keep them safe and happy. <br/><br/>
 	I thought that it was my way of being kind without taking attention or time. I dream about living my life to its full potential. I want to do worthwhile things, see crazy beautiful places, feel that wonderful feeling of accomplishing something crazy and epic. Heavenly Father will help me know what path is mine, and as I go I intend to do it happily, be fully invested, but (?). I do not want to run head-first into something that will have negative consequences for others. That would make me sad, but interesting. My story is long, silly, goofy, and complicated :). Music is very important to me, I love it because it helps me focus, relax, and feel my emotions better.
 
                   </p>
@@ -268,7 +268,7 @@ Something about me is that I'm the bossman. I’m bossman Britton. I do what I w
                     <div className={modalBlock}>
                       <h1 className='text-text uppercase mb-3 text-2xl'>Manny Maciaj</h1>
                       <p className='text-mainText'>
-           Me and my friends would stand on top of monkey bars and see who can make it across the farthest and one time I fell and got a concussion, which was pretty fun. <br/>
+           Me and my friends would stand on top of monkey bars and see who can make it across the farthest and one time I fell and got a concussion, which was pretty fun. <br/><br/>
 	I also got peer pressured into boxing and working out but then was glad about it since I was pretty weak and couldn't do much.
                   </p>
                 </div>
@@ -291,7 +291,7 @@ Something about me is that I'm the bossman. I’m bossman Britton. I do what I w
                     <div className={modalBlock}>
                       <h1 className='text-text uppercase mb-3 text-2xl'>Mathias Bro</h1>
                       <p className='text-mainText'>
-           	I’ve lived in Utah my whole life, born and raised in this (?) around the orem-lindon area.
+           	I’ve lived in Utah my whole life, born and raised in this (?) around the orem-lindon area.<br/><br/>
 Something I would like to be known for (and try to do now) is being a good friend as well as being there for people and trying to always help people out.
                   </p>
                 </div>
