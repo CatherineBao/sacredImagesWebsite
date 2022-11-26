@@ -900,7 +900,7 @@ I want to be known for being kind. I want my kids to know me if I have any.
   	      <p className='text-xs text-mainText hidden lg:block text-right italic uppercase max-w-3xl p-5'>
   	        "The coolest part about making the mural was getting to see the hundreds of ideas being shared. Every story is unique, special, and important, and you can see that being highlighted across the several iterations made before the final product came to fruition." 
   	        <br/>
-  	      	<span className='font-bold'>- Talon Gardner</span>
+  	      	<span className='font-bold'>- Talan Gardner</span>
   	      </p>
   	    </div>
   			<div>
