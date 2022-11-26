@@ -74,7 +74,7 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
       animate={{ opacity:1 }}
       exit={{ opacity:0 }}
     >
-      {!modalOpenKintsugi ?
+      <AnimatePresence> {!modalOpenKintsugi ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div >
           <div className={backgroundClick} onClick={() => setModalOpenKintsugi(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -89,8 +89,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-        {!modalOpenButterflies ?
+        	</motion.div>         : null}         </AnimatePresence>
+        <AnimatePresence> {!modalOpenButterflies ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div >
           <div className={backgroundClick} onClick={() => setModalOpenButterflies(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -105,8 +105,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenSun ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenSun ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className=''>
           <div className={backgroundClick} onClick={() => setModalOpenSun(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -121,8 +121,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenWolfPackSchoolSpirit ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenWolfPackSchoolSpirit ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className=''>
           <div className={backgroundClick} onClick={() => setModalOpenWolfPackSchoolSpirit(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -137,14 +137,14 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenTalanGardner ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenTalanGardner ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className=''>
           <div className={backgroundClick} onClick={() => setModalOpenTalanGardner(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
               <div className={modal}>
                 <h1 className='text-text uppercase mb-3 text-2xl'> Talan Gardner:</h1>
-                <p className='text-mainText'> Talan is one of the kindest, most caring students at Timpanogos High School. He always makes people feel valued and welcome. Talan is also one of the few Caucasian students in Latinos in Action because he did a Portuguese immersion program throughout elementary school. Talan also wanted to share a story about having ADHD and how that represents a significant number of students here at Timpanogos. Hear Talan’s story in <a className='text-text' href='https://www.youtube.com/watch?v=rFm2rmmOUqc&feature=youtu.be' target="_blank" > this video clip</a>
+                <p className='text-mainText'> Talan is one of the kindest, most caring students at Timpanogos High School. He always makes people feel valued and welcome. Talan is also one of the few Caucasian students in Latinos in Action because he did a Portuguese immersion program throughout elementary school. Talan also wanted to share a story about having ADHD and how that represents a significant number of students here at Timpanogos. Hear Talan’s story in <a className='text-text' href='https://www.youtube.com/watch? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >v=rFm2rmmOUqc&feature=youtu.be' target="_blank" > this video clip</a>
                 </p>
                 <div className='p-3 mt-3 md:p-10'>
                   <img className='rounded-xl' src={TalanGardner} alt="avaFolkman" />
@@ -153,14 +153,14 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenCatalinaCasallas ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenCatalinaCasallas ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className=''>
           <div className={backgroundClick} onClick={() => setModalOpenCatalinaCasallas(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
               <div className={modal}>
                 <h1 className='text-text uppercase mb-3 text-2xl'> Catalina Casallas:</h1>
-                <p className='text-mainText'> Catalina is a recent immigrant to the United States, arriving just a little over a month ago from Colombia. When we visited her English class, she got very excited to share her story about her beloved home country and her new life here in the United States. She came four different days when there was no school to help share more about her story and paint the mural. She also represents the many students who have come to Timpanogos High School from different places around the country and world. Hear Cata’s story in <a className='text-text' href='https://www.youtube.com/watch?v=pzpjW7KHlNc&feature=youtu.be' target="_blank" > this video clip</a>
+                <p className='text-mainText'> Catalina is a recent immigrant to the United States, arriving just a little over a month ago from Colombia. When we visited her English class, she got very excited to share her story about her beloved home country and her new life here in the United States. She came four different days when there was no school to help share more about her story and paint the mural. She also represents the many students who have come to Timpanogos High School from different places around the country and world. Hear Cata’s story in <a className='text-text' href='https://www.youtube.com/watch? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >v=pzpjW7KHlNc&feature=youtu.be' target="_blank" > this video clip</a>
                 </p>
                 <div className='p-3 mt-3 md:p-10'>
                   <img className='rounded-xl' src={CatalinaCasallas} alt="avaFolkman" />
@@ -169,14 +169,14 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenDrewClark ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenDrewClark ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenDrewClark(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
               <div className={modal}>
                 <h1 className='text-text uppercase mb-3 text-2xl'> Drew Clark:</h1>
-                <p className='text-mainText'> Drew is a member of the presidency of Latinos in Action and has been very involved with the mural process from the start. She contributed a poem and story to our project and has spent many hours helping us paint the mural. Drew’s father is from the U.S. and her mother is from Guatemala, and she is a representative of the many students at Timpanogos with mixed heritage. Hear Drew’s story in <a className='text-text' href='https://www.youtube.com/watch?v=x0E6vM9hDZ4&feature=youtu.be' target="_blank" > this video clip</a>
+                <p className='text-mainText'> Drew is a member of the presidency of Latinos in Action and has been very involved with the mural process from the start. She contributed a poem and story to our project and has spent many hours helping us paint the mural. Drew’s father is from the U.S. and her mother is from Guatemala, and she is a representative of the many students at Timpanogos with mixed heritage. Hear Drew’s story in <a className='text-text' href='https://www.youtube.com/watch? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >v=x0E6vM9hDZ4&feature=youtu.be' target="_blank" > this video clip</a>
                 </p>
                 <div className='p-3 mt-3 md:p-10'>
                   <img className='rounded-xl' src={DrewClark} alt="avaFolkman" />
@@ -185,14 +185,14 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenNephiMatagi ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenNephiMatagi ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenNephiMatagi(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
               <div className={modal}>
                 <h1 className='text-text uppercase mb-3 text-2xl'> Nephi Matagi:</h1>
-                <p className='text-mainText'> Nephi is an amazing athlete who plays football, lacrosse, and runs track and field. He also contributed designs to the mural representing the Polynesian community (he is of Samoan descent) here at Timpanogos High School. Hear Nephi’s story in <a className='text-text' href='https://www.youtube.com/watch?v=vef1jJuZYs4&feature=youtu.be' target="_blank" > this video clip</a>
+                <p className='text-mainText'> Nephi is an amazing athlete who plays football, lacrosse, and runs track and field. He also contributed designs to the mural representing the Polynesian community (he is of Samoan descent) here at Timpanogos High School. Hear Nephi’s story in <a className='text-text' href='https://www.youtube.com/watch? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >v=vef1jJuZYs4&feature=youtu.be' target="_blank" > this video clip</a>
                 </p>
                 <div className='p-3 mt-3 md:p-10'>
                   <img className='rounded-xl' src={NephiMatagi} alt="avaFolkman" />
@@ -201,8 +201,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenMtTimpanogos ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenMtTimpanogos ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenMtTimpanogos(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -217,8 +217,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenSpecialEducation ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenSpecialEducation ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenSpecialEducation(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -233,14 +233,14 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenFynnPedersen ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenFynnPedersen ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenFynnPedersen(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
               <div className={modal}>
                 <h1 className='text-text uppercase mb-3 text-2xl'> Fynn Pedersen:</h1>
-                <p className='text-mainText'> Fynn is an outstanding student involved in orchestra, basketball, and theater tech crew. Fynn is also a member of the LGBTQ+ community.  Hear Fynn’s story in <a className='text-text' href='https://www.youtube.com/watch?v=NSLE-c2PPjA&feature=youtu.be' target="_blank" > this video clip</a>
+                <p className='text-mainText'> Fynn is an outstanding student involved in orchestra, basketball, and theater tech crew. Fynn is also a member of the LGBTQ+ community.  Hear Fynn’s story in <a className='text-text' href='https://www.youtube.com/watch? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >v=NSLE-c2PPjA&feature=youtu.be' target="_blank" > this video clip</a>
                 </p>
                 <div className='p-3 mt-3 md:p-10'>
                   <img className='rounded-xl' src={FynnPedersen} alt="avaFolkman" />
@@ -249,8 +249,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenSegoLily ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenSegoLily ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenSegoLily(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -265,8 +265,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenTitanTimberwolf ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenTitanTimberwolf ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenTitanTimberwolf(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -281,8 +281,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenPrideProgress ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenPrideProgress ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenPrideProgress(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -297,8 +297,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenDownSyndrome ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenDownSyndrome ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenDownSyndrome(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -313,8 +313,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenLillyBegayWolf ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenLillyBegayWolf ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenLillyBegayWolf(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -329,8 +329,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenADHD ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenADHD ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenADHD(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -345,8 +345,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenSemicolon ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenSemicolon ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenSemicolon(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -361,8 +361,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenNeurodiversity ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenNeurodiversity ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenNeurodiversity(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -376,8 +376,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenExplorer ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenExplorer ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenExplorer(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -391,8 +391,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenPolynesian ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenPolynesian ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenPolynesian(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -406,8 +406,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenNativeAmerican ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenNativeAmerican ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenNativeAmerican(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -421,14 +421,14 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenFootprint ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenFootprint ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenFootprint(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
               <div className={modal}>
                 <h1 className='text-text uppercase mb-3 text-2xl'>  Footprint with Smiley Face: </h1>
-                <p className='text-mainText'> One of the AP Art Students, Mercy Thomas, created an awesome video about what she has chosen to do to spread happiness to all those around her, especially for anyone who may be considering self-harm or suicidal ideation. She draws a smiley face on her ankle every day so people can see it and smile. <a className='text-text' href='https://www.youtube.com/watch?v=t3awHi0MuUg&feature=youtu.be' target="_blank" > Check out her video!</a> </p>
+                <p className='text-mainText'> One of the AP Art Students, Mercy Thomas, created an awesome video about what she has chosen to do to spread happiness to all those around her, especially for anyone who may be considering self-harm or suicidal ideation. She draws a smiley face on her ankle every day so people can see it and smile. <a className='text-text' href='https://www.youtube.com/watch? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >v=t3awHi0MuUg&feature=youtu.be' target="_blank" > Check out her video!</a> </p>
                 <div className='p-3 mt-3 md:p-10'>
                   <img className='rounded-xl' src={Footprint} alt="avaFolkman" />
                 </div>
@@ -436,8 +436,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenChinese ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenChinese ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenChinese(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -451,8 +451,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenClef ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenClef ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenClef(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -466,14 +466,14 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenEpilepsy ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenEpilepsy ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenEpilepsy(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
               <div className={modal}>
                 <h1 className='text-text uppercase mb-3 text-2xl'>  Epilepsy: </h1>
-                <p className='text-mainText'> The purple ribbon represents epilepsy, which affects some of our students such as Nicolas Neumeyer.  Here is <a className='text-text' href='https://www.youtube.com/watch?v=3hkYQSwIgmA&feature=youtu.be' target="_blank" >Nico's story</a> that he wanted to share about epilepsy.</p>
+                <p className='text-mainText'> The purple ribbon represents epilepsy, which affects some of our students such as Nicolas Neumeyer.  Here is <a className='text-text' href='https://www.youtube.com/watch? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >v=3hkYQSwIgmA&feature=youtu.be' target="_blank" >Nico's story</a> that he wanted to share about epilepsy.</p>
                 <div className='p-3 mt-3 md:p-10'>
                   <img className='rounded-xl' src={Epilepsy} alt="avaFolkman" />
                 </div>
@@ -481,8 +481,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenKindness ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenKindness ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenKindness(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -496,8 +496,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenHourglass ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenHourglass ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenHourglass(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -511,8 +511,8 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
-      {!modalOpenHeart ?
+        	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenHeart ? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
         <div className='w-screen h-full'>
           <div className={backgroundClick} onClick={() => setModalOpenHeart(s => !s)}>
             <div className='flex items-center justify-center mt-20'>
@@ -526,7 +526,7 @@ const [modalOpenHourglass, setModalOpenHourglass] = useState(true)
             </div>
           </div>
         </div>
-        : null}
+        	</motion.div>         : null}         </AnimatePresence>
   	  <div className='bg-background text-text'>
   	    <div className='pt-12 lg:pt-24 bg-bars text-text flex justify-between items-center lg:px-20 p-3 uppercase'>
           <div>
