@@ -41,7 +41,7 @@ function APArt() {
       animate={{ opacity:1 }}
       exit={{ opacity:0 }}
     >
-       {!modalOpenUnknown4 ?
+       <AnimatePresence> {!modalOpenUnknown4 ?  <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenUnknown4(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -55,8 +55,8 @@ function APArt() {
             </div>
               </div>
             </div>
-          : null}
-      {!modalOpenUnknown3 ?
+          	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenUnknown3 ?  <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenUnknown3(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -74,8 +74,8 @@ Ignorance is something that is taught, not something you’re born with, and tha
             </div>
               </div>
             </div>
-          : null}
-      {!modalOpenUnknown2 ?
+          	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenUnknown2 ?  <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenUnknown2(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -95,8 +95,8 @@ Is it real or is it just in my head? <br/>
             </div>
               </div>
             </div>
-          : null}
-      {!modalOpenUnknown1 ?
+          	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenUnknown1 ?  <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenUnknown1(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -113,8 +113,8 @@ I was born to create. Create I will.<br/><br/>
             </div>
               </div>
             </div>
-          : null}
-      {!modalOpenPaige ?
+          	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenPaige ?  <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenPaige(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -140,8 +140,8 @@ Thank you for making this place home.
             </div>
               </div>
             </div>
-          : null}
-      {!modalOpenNatalie ?
+          	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenNatalie ?  <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenNatalie(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -160,8 +160,8 @@ Of course, there is more to my life, but for now, this is what I wanted to share
             </div>
               </div>
             </div>
-          : null}
-      {!modalOpenMorgan ?
+          	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenMorgan ?  <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenMorgan(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -178,8 +178,8 @@ But this hassle in my identity led my brother to be able to come out and unlike 
             </div>
               </div>
             </div>
-          : null}
-      {!modalOpenKayla ?
+          	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenKayla ?  <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenKayla(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -192,8 +192,8 @@ But this hassle in my identity led my brother to be able to come out and unlike 
             </div>
               </div>
             </div>
-          : null}
-      {!modalOpenBrinley ?
+          	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenBrinley ?  <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenBrinley(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -210,8 +210,8 @@ I entered high school hopeless and extremely self conscious. Then I met some of 
             </div>
               </div>
             </div>
-          : null}
-      {!modalOpenBrenna ?
+          	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenBrenna ?  <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenBrenna(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -247,8 +247,8 @@ Hopefully you made the most of your few given steps.<br/>
             </div>
               </div>
             </div>
-          : null}
-      {!modalOpenAva ?
+          	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenAva ?  <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenAva(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -276,8 +276,8 @@ Hopefully you made the most of your few given steps.<br/>
             </div>
               </div>
             </div>
-          : null}
-      {!modalOpenAlexa ?
+          	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenAlexa ?  <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenAlexa(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -297,8 +297,8 @@ As I navigate through life, I have found it interesting that I know of moments i
             </div>
               </div>
             </div>
-          : null}
-      {!modalOpenAbbie ?
+          	</motion.div>         : null}         </AnimatePresence>
+      <AnimatePresence> {!modalOpenAbbie ?  <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenAbbie(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -349,7 +349,7 @@ Enveloping my canvas with paint, I smile at My art teacher. <br/><br/>
             </div>
               </div>
             </div>
-          : null}
+          	</motion.div>         : null}         </AnimatePresence>
      <div className='bg-background text-text'>
       <div className='pt-14 md:pt-20 bg-bars text-text flex justify-between items-center lg:px-20 px-10 p-3 uppercase'>
         <div>
