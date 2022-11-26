@@ -36,7 +36,13 @@ function English() {
       animate={{ opacity:1 }}
       exit={{ opacity:0 }}
     >
+      <AnimatePresence>
       {!modalOpenUnknown3 ?
+        <motion.div
+      initial={{ opacity:0 }}
+      animate={{ opacity:1 }}
+      exit={{ opacity:0 }}
+    >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenUnknown3(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -47,8 +53,16 @@ function English() {
             </div>
               </div>
             </div>
-          : null}
+          </motion.div>
+        : null}
+        </AnimatePresence>
+		<AnimatePresence>
       {!modalOpenSaturn ?
+        <motion.div
+      initial={{ opacity:0 }}
+      animate={{ opacity:1 }}
+      exit={{ opacity:0 }}
+    >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenSaturn(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -59,8 +73,16 @@ function English() {
             </div>
               </div>
             </div>
-          : null}
+          	</motion.div>
+        : null}
+        </AnimatePresence>
+		<AnimatePresence>
       {!modalOpenChloe ?
+        <motion.div
+      initial={{ opacity:0 }}
+      animate={{ opacity:1 }}
+      exit={{ opacity:0 }}
+    >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenChloe(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -73,8 +95,16 @@ function English() {
             </div>
               </div>
             </div>
-          : null}
+          	</motion.div>
+        : null}
+        </AnimatePresence>
+		<AnimatePresence>
       {!modalOpenZaid ?
+        <motion.div
+      initial={{ opacity:0 }}
+      animate={{ opacity:1 }}
+      exit={{ opacity:0 }}
+    >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenZaid(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -87,7 +117,9 @@ function English() {
             </div>
               </div>
             </div>
-          : null}
+          	</motion.div>
+        : null}
+        </AnimatePresence>
 	    <div className='bg-background text-text'>
   	    <div className='pt-12 lg:pt-20 bg-bars text-text flex justify-between items-center lg:px-20 p-3 uppercase'>
   	      <div>
