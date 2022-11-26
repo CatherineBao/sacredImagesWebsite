@@ -1,7 +1,6 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion"
 import {useState} from 'react';
-import Modal from "react-modal";
 
 import finneanSmith from '../../img/story-img/lgbtq/finnean-smith-rect.png'
 import ivyAnderton from '../../img/story-img/lgbtq/ivy-anderton-rect.png'
@@ -30,7 +29,13 @@ function LGBTQ() {
       exit={{ opacity:0 }}
     >
 	    <div className='bg-background text-text'>
-        {!modalOpen ?
+        <AnimatePresence>
+          {!modalOpen ?
+            <motion.div
+      initial={{ opacity:0 }}
+      animate={{ opacity:1 }}
+      exit={{ opacity:0 }}
+    >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpen(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -57,8 +62,16 @@ Ignorance is something that is taught, not something you’re born with, and tha
             </div>
               </div>
           </div>
+            	</motion.div>
         : null}
+        </AnimatePresence>
+		<AnimatePresence>
         {!modalOpenTwo ?
+          <motion.div
+      initial={{ opacity:0 }}
+      animate={{ opacity:1 }}
+      exit={{ opacity:0 }}
+    >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenTwo(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -75,8 +88,16 @@ But this hassle in my identity led my brother to be able to come out and unlike 
             </div>
               </div>
             </div>
-          : null}
+          	</motion.div>
+        : null}
+        </AnimatePresence>
+		<AnimatePresence>
         {!modalOpenThree ?
+          <motion.div
+      initial={{ opacity:0 }}
+      animate={{ opacity:1 }}
+      exit={{ opacity:0 }}
+    >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenThree(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -89,8 +110,16 @@ But this hassle in my identity led my brother to be able to come out and unlike 
             </div>
               </div>
             </div>
-          : null}
+          	</motion.div>
+        : null}
+        </AnimatePresence>
+		<AnimatePresence>
         {!modalOpenFour ?
+          <motion.div
+      initial={{ opacity:0 }}
+      animate={{ opacity:1 }}
+      exit={{ opacity:0 }}
+    >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenFour(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -108,8 +137,16 @@ Ignorance is something that is taught, not something you’re born with, and tha
             </div>
               </div>
             </div>
-          : null}
+          </motion.div>
+        : null}
+        </AnimatePresence>
+		<AnimatePresence>
         {!modalOpenFive ?
+          <motion.div
+      initial={{ opacity:0 }}
+      animate={{ opacity:1 }}
+      exit={{ opacity:0 }}
+    >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenFive(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -172,8 +209,16 @@ I don't exactly know who I am. I could be him, I could be them, but I do know on
             </div>
               </div>
             </div>
-          : null}
+          	</motion.div>
+        : null}
+        </AnimatePresence>
+		<AnimatePresence>
         {!modalOpenSix ?
+          <motion.div
+      initial={{ opacity:0 }}
+      animate={{ opacity:1 }}
+      exit={{ opacity:0 }}
+    >
           <div className='w-screen h-full'>
               <div className={modal} onClick={() => setModalOpenSix(s => !s)}>
                 <div className='flex items-center justify-center mt-20'>
@@ -191,7 +236,9 @@ Being able to be yourself and being accepted.
             </div>
               </div>
             </div>
-          : null}
+          	</motion.div>
+        : null}
+        </AnimatePresence>
   	    <div className='pt-12 lg:pt-20 bg-bars text-text flex justify-between items-center lg:px-20 p-3 uppercase'>
   	      <div>
             <h1 className='text-xl lg:text-3xl font-arvo font-thin'>LGBTQ+ Stories</h1>
