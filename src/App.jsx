@@ -530,7 +530,7 @@ function App() {
       <div className='bg-background text-text'>
         <div className='pt-12 lg:pt-24 bg-bars text-text flex justify-between items-center lg:px-20 p-3 uppercase'>
           <div>
-            <p className='text-xs text-mainText lg:block text-left italic uppercase max-w-3xl'>Best viewed on desktop</p>
+            <p className='hidden lg:block text-xs text-mainText md:block text-left italic uppercase max-w-3xl'>Best viewed on desktop</p>
             <h1 className='text-xl lg:text-3xl font-arvo font-thin'>Interactive Mural</h1>
             <p className='text-xs text-mainText lg:block text-right italic uppercase max-w-3xl'>Click on mural for details</p>
           </div>
@@ -665,11 +665,12 @@ function App() {
           </div>
         </div>
         <div className='bg-bars text-text flex justify-end items-center lg:px-20 p-3 uppercase h-10 sm:h-auto'>
-          <p className='hidden sm:block text-xs text-right text-mainText italic uppercase max-w-3xl'>
+          <p className='hidden md:block text-xs text-right text-mainText italic uppercase max-w-3xl'>
             "The teamwork and talent displayed by the students this month makes me so proud to be apart of this mural project."
             <br />
             <span className='font-bold'>- Dimi Macheras, 80% Studios</span>
           </p>
+          <p className='block md:hidden lg:hidden text-xs text-mainText lg:block text-right italic uppercase max-w-3xl'>Best viewed on desktop</p>
         </div>
         <h1 className='text-xl lg:text-3xl font-arvo font-thin p-3 uppercase lg:px-20 pt-10'>Documentary Video</h1>
         <div className='flex justify-center flex-col p-10 xl:px-52'>
