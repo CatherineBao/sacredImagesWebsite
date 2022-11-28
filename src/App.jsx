@@ -530,6 +530,7 @@ function App() {
       <div className='bg-background text-text'>
         <div className='pt-12 lg:pt-24 bg-bars text-text flex justify-between items-center lg:px-20 p-3 uppercase'>
           <div>
+            <p className='text-xs text-mainText lg:block text-left italic uppercase max-w-3xl'>Best viewed on desktop</p>
             <h1 className='text-xl lg:text-3xl font-arvo font-thin'>Interactive Mural</h1>
             <p className='text-xs text-mainText lg:block text-right italic uppercase max-w-3xl'>Click on mural for details</p>
           </div>
