@@ -14,9 +14,9 @@ function Nav() {
     <div>
       <div className='fixed z-50 flex-column w-full'>
         <div className='w-full h-10 bg-background lg:h-20 flex flex-row justify-between lg:px-20 px-5'>
-          <div className='flex items-center justify-start'>
+          <Link className='flex items-center justify-start' to='/'>
             <img className='w-auto h-3/4 hover:cursor-pointer' onClick={() => setDropdown(true)} onClick={() => setHamburger(true)} src={Logo} />
-          </div>
+          </Link>
           <div className='hidden lg:flex justify-center font-light items-center text-xs'>
             <Link className={navButton} onClick={() => setDropdown(true)} to='/'>
               Home

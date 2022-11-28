@@ -21,6 +21,13 @@ function Updates() {
         <div className='flex justify-center flex-col items-center justify-center p-10 xl:px-52 w-full gap-10'>
           <h1 className='text-xl lg:text-3xl font-bold p-3 lg:px-20 pt-10'>Update Information</h1>
           <div className='md:w-1/4 w-full text-center md:text-left'>
+            <h2 className='font-bold'>11/27/2022</h2>
+            <ul className='md:list-disc'>
+              <li>Why are there so many spanish stories?? Help me god</li>
+              <li>Link thiny works now, click on the logo hahahah</li>
+            </ul>
+          </div>
+          <div className='md:w-1/4 w-full text-center md:text-left'>
             <h2 className='font-bold'>11/25/2022</h2>
             <ul className='md:list-disc'>
               <li>Reuploading all of the modals with everyones stories</li>
