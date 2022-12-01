@@ -154,7 +154,7 @@ function DesignProcess() {
             </div>
             <div className='w-1/2'>
               <div> <img className={img} src={fynn} alt="fynn-portrait" /> </div>
-              <p className={p}> <span className={title}> Abby Brockbank </span> <br />Finn portrait  </p>
+              <p className={p}> <span className={title}> Fynn portrait  </span> <br />Abbie Brockbank </p>
             </div>
           </div>
         </div>
