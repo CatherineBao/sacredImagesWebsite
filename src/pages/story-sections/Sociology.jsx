@@ -375,7 +375,7 @@ Something I would like to be known for (and try to do now) is being a good frien
             exit={{ opacity:0 }}
           >
                 <div className='w-screen h-full'>
-                    <div className={modal} onClick={() => modalOpenunknown1(s => !s)}>
+                    <div className={modal} onClick={() => setModalOpenunknown1(s => !s)}>
                       <div className='flex items-center justify-center mt-20'>
                     <div className={modalBlock}>
                       <h1 className='text-text uppercase mb-3 text-2xl'>anonymous</h1>
@@ -397,7 +397,7 @@ Something I would like to be known for (and try to do now) is being a good frien
             exit={{ opacity:0 }}
           >
                 <div className='w-screen h-full'>
-                    <div className={modal} onClick={() => modalOpenunknown2(s => !s)}>
+                    <div className={modal} onClick={() => setModalOpenunknown2(s => !s)}>
                       <div className='flex items-center justify-center mt-20'>
                     <div className={modalBlock}>
                       <h1 className='text-text uppercase mb-3 text-2xl'>anonymous</h1>
