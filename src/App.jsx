@@ -240,7 +240,7 @@ function App() {
             <div className='flex items-center justify-center mt-20'>
               <div className={modal}>
                 <h1 className='text-text uppercase mb-3 text-2xl'> Fynn Pedersen:</h1>
-                <p className='text-mainText'> Fynn is an outstanding student involved in orchestra, basketball, and theater tech crew. Fynn is also a member of the LGBTQ+ community.  Hear Fynn’s story in <a className='text-text' href='https://www.youtube.com/watch? <motion.div       initial={{ opacity:0 }}       animate={{ opacity:1 }}       exit={{ opacity:0 }}     >v=NSLE-c2PPjA&feature=youtu.be' target="_blank" > this video clip</a>
+                <p className='text-mainText'> Fynn is an outstanding student involved in orchestra, basketball, and theater tech crew. Fynn is also a member of the LGBTQ+ community.  Hear Fynn’s story in <a className='text-text' href='https://www.youtube.com/watch?v=NSLE-c2PPjA' target="_blank" > this video clip</a>
                 </p>
                 <div className='p-3 mt-3 md:p-10'>
                   <img className='rounded-xl' src={FynnPedersen} alt="avaFolkman" />
