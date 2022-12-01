@@ -14,7 +14,7 @@ function Footer() {
         <div className='flex-col flex items-center justify-center'>
           <h1 className={h1}> SOCIAL MEDIA:</h1>
           <ul className={li}>
-            <li>Timpanogos Highschool - <a className={link} href='https://ths.alpineschools.org/' target="_blank" >website</a></li>
+            <li>Timpanogos High School - <a className={link} href='https://ths.alpineschools.org/' target="_blank" >website</a></li>
             <li>Radio - <a className={link} href='https://www.iradeo.com/station/154846' target="_blank" >KTWF 88.9 FM</a></li>
             <li>INSTAGRAM  - <a className={link} href='https://www.instagram.com/titantimpanogos/' target="_blank" >TITANTIMPANOGOS</a></li>
             <li>YOUTUBE  - <a className={link} href='https://www.youtube.com/channel/UCe3KJK1yMiiGQPK52l6Gj_w' target="_blank" >T-WOLF TELEVISION</a></li>
