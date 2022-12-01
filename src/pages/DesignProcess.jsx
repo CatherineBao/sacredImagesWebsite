@@ -102,7 +102,7 @@ function DesignProcess() {
           <div className='flex md:w-1/2 gap-10 items-end'>
             <div>
               <div> <img className={img} src={wolves} alt="wolves" /> </div>
-              <p className={p}> <span className={title}> Wolves </span><br /> Lily Begay</p>
+              <p className={p}> <span className={title}> Wolves </span><br /> Lilly Begay</p>
             </div>
             <div>
               <div> <img className={img} src={nephi} alt="nephi" /> </div>
