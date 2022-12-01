@@ -17,7 +17,7 @@ function SubmitStories() {
         	<span className='font-bold'>- Kayla Bjorn</span>
         </p>
       </div>
-   <p className='text-xs text-mainText hidden lg:block text-left italic uppercase max-w-3xl p-5'>
+   <p className='text-xs text-mainText text-center lg:text-left italic uppercase max-w-3xl p-5'>
 	   This form may not load on an Apple Device. 
 	   </p>
   		<div className='md:-mb-96 pt-25'>
